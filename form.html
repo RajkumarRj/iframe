@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <p>
+        <label for="name">Firstname</label>
+        <input type="text" name="firstname">
+        </p>
+        <p>
+        <label for="middlename">Middlename</label>
+        <input type="text" name="middlename">
+        </p>
+        <p>
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname">
+            </p>
+
+        <p>
+            <label for="course">Course</label>
+            <select name="career" >
+                <option selected>course</option>
+                <option>BSC</option>
+                <option>BCA</option>
+                <option>MSC</option>
+                <option>MCA</option>
+                <option>B.TECH</option>
+                <option>M.TECH</option>
+
+            </select>
+        </p>
+        <p>
+            <label for="gen">Gender</label>
+            <br>
+            <input type="radio" name="male">Male
+            <br>
+            <input type="radio" name="female">Female
+            <br>
+            <input type="radio" name="other">Other
+        </p>
+
+        <p>
+            <label for="dob">DOB</label>
+            <input type="datetime-local" name="dob">
+        </p>
+        <p>
+            <label for="phone">Phone</label>
+            <span style="border: 2px solid rgb(59, 57, 57);">+91</span>
+            <input type="tel" name="number">
+        </p>
+
+        <p>
+            <label for="address">Address</label><br>
+            <textarea name="address" cols="70" rows="5"></textarea>
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="em">
+        </p>
+        <p>
+            <label for="pass">Password:</label>
+            <input type="password" name="em">
+        </p>
+        <p>
+            <label for="pass">Re-type passoword:</label>
+            <input type="password" name="em">
+        </p>
+        <p>
+            <input type="checkbox" name="check">Agree to terms and conditions
+        </p>
+        <p>
+            <label for="file">Choose File</label>
+            <input type="file" name="cfile">
+        </p>
+        <p>
+            <label for="color">Choose color</label>
+            <input type="color" name="ccolor">
+        </p>
+
+        <input type="reset" value="Reset">
+        <input type="submit">
+
+    </fieldset>
+    </form>
+    
+
+    
+</body>
+</html>
